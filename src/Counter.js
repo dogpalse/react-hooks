@@ -5,9 +5,9 @@ const Counter = () => {
 
     return (
         <div>
-            <p>현재 값은 <b>{value}</b>입니다.</p>
-            <button onClick={() => {setValue(value + 1)}}>+1</button>
-            <button onClick={() => {setValue(value - 1)}}>-1</button>
+            <p>값 : <b>{value}</b></p>
+            <button onClick={() => {setValue(value + 1)}}>+</button>
+            <button onClick={() => {setValue(value - 1)}}>-</button>
         </div>
     )
 }
